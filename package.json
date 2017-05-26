@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "JavaScript library to generate sort functions.",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test/sortgen.test.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ghost-/sortgen/issues"
   },
-  "homepage": "https://github.com/ghost-/sortgen#readme"
+  "homepage": "https://github.com/ghost-/sortgen#readme",
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "mocha": "^3.4.2"
+  }
 }
