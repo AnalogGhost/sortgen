@@ -4,7 +4,7 @@
   const root = this;
   const previous_sortgen = root.sortgen;
 
-  let sortgen = function() {
+  const sortgen = function() {
     console.log(root);
   };
 
