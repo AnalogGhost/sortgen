@@ -21,7 +21,30 @@
   },
   "homepage": "https://github.com/ghost-/sortgen#readme",
   "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
     "chai": "^4.0.0",
-    "mocha": "^3.4.2"
+    "eslint": "^3.7.1",
+    "eslint-config-es2015": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "mocha": "^3.4.2",
+    "run-sequence": "^1.2.2"
+  },
+  "babel": {
+    "presets": [
+      [
+        "es2015",
+        {
+          "modules": false
+        }
+      ]
+    ]
+  },
+  "eslintConfig": {
+    "extends": "es2015"
   }
 }
