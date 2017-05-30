@@ -1,6 +1,6 @@
 if (typeof window === 'undefined' && typeof require !== 'undefined') {
   var assert = require('chai').assert;
-  var sortgen = require('../src/sortgen');
+  var sortgen = require('../dist/sortgen.js');
 } else {
   window.assert = chai.assert;
 }
