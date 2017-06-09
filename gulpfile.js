@@ -9,6 +9,7 @@ const uglify = require('gulp-uglify');
 gulp.task('build', callback => {
   runSequence('lint','transpile','test','compress', callback);
 });
+
 gulp.task('compress', () => {
   gulp.src('dist/sortgen.js')
   .pipe(uglify())
