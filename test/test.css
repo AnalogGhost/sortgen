@@ -1,0 +1,23 @@
+html,body {
+  height:100%;
+  margin: 0;
+  padding:0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+div {
+  box-sizing: border-box;
+  border: 1px solid;
+  display: inline-block;
+  height:100%;
+  width:49%;
+}
+
+iframe {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border:none;
+}
